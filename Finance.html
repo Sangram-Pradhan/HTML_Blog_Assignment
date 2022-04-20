@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Investing is an Art</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    
+        /* Add a gray background color with some padding */
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: #f1f1f1;
+        }
+    
+        /* Header/Blog Title */
+        .header {
+            padding: 30px;
+            font-size: 40px;
+            text-align: center;
+            background: white;
+        }
+    
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+    
+        /* Right column */
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            padding-left: 20px;
+        }
+    
+        /* Fake image */
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+    
+        /* Add a card effect for articles */
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+                .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        }
+    
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+    
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+    
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Personal Finance</h2>
+    </div>
+    
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>Investing: The Simple Path To Wealth</h2>
+                <h5>Investing Blog, Apr 19, 2021</h5>
+                <div>
+                    <img src="C:\Users\Sangram Pradhan\Downloads\invest.jpg" class="fakeimg" style="height:200px;" alt="Investing">
+                </div>
+                <p>Being good at finances is all about education. Whether you’re new to staying on top of your finances or need some fresh
+                inspiration to grow your wealth, you can turn to finance and investment blogs to educate you on all things on finance.</p>
+            </div>
+            <div class="card">
+                <h2>Understanding Investing</h2>
+                <h5>Finance Knowledge, Apr 19, 2021</h5>
+                <div>
+                <img src="C:\Users\Sangram Pradhan\Downloads\finance.jpg" class="fakeimg" style="height:200px;" alt="finance">
+                </div>
+                <p>The expectation of a return in the form of income or price appreciation with statistical significance is the core premise of investing. The spectrum of assets in which one can invest and earn a return is a very wide one.</p>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>About Me</h2>
+                <p>I belive investing in yourself truly makes a difference in your life, your well-being, and your ability to thrive and perform to
+                the best of your ability.</p>
+            </div>
+            <div class="card">
+                <h3>Follow Me</h3>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
